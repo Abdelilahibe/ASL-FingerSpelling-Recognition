@@ -50,7 +50,7 @@ while True:
     cv2.rectangle(frame, (w - 220, 25), (w - 220 + int(200 * conf), 45), (0, 255, 0), -1)
     cv2.rectangle(frame, (0, h - 60), (w, h), (30, 30, 30), -1)
     cv2.putText(frame, "Message: " + message[-30:], (10, h - 20), FONT, 1, (255, 255, 255), 2)
-    cv2.imshow("SignFrame AI", frame)
+    cv2.imshow("ASL Fingerspelling Recognition", frame)
 
     key = cv2.waitKey(1) & 0xFF
     if key == 27: break                      # Esc = quit
