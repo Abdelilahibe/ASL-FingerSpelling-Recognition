@@ -76,8 +76,7 @@ ASL_Project/
 **Requirements:** Python 3.10 – 3.12
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ASL_Project.git
-cd ASL_Project
+git clone https://github.com/Abdelilahibe/ASL_Project.git
 
 python -m venv venv
 venv\Scripts\activate          # Windows
