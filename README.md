@@ -76,7 +76,8 @@ ASL_Project/
 **Requirements:** Python 3.10 – 3.12
 
 ```bash
-git clone https://github.com/Abdelilahibe/ASL_Project.git
+git clone https://github.com/Abdelilahibe/asl-fingerspelling-recognition.git
+cd asl-fingerspelling-recognition
 
 python -m venv venv
 venv\Scripts\activate          # Windows
